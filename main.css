@@ -4,14 +4,28 @@ aside {
   background-color: #181618;
   color: white;
   font-size: 12px;
+  
+}
+body{
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  display: flex;
 }
 
 .logo {
   width: 150px;
+  height: 30px;
+  margin: 25px;
+  
 }
 
 h2 {
   font-size: 16px;
+  position: relative;
+  left: 10px;
+  margin: 5px;
+  padding: 5px;
 }
 
 main {
@@ -22,10 +36,50 @@ main {
 }
 h1 {
   font-size: 18px;
+  margin: 30px;
 }
 .products_container {
   width: 90%;
+  align-items: flex-start;
+  margin: 20px;
 }
 .product {
   width: 150px;
+  margin: 5px;
 }
+
+section {
+  width: 100%;
+  
+}
+
+.cart_container {
+display: flex;
+justify-content: space-around;
+align-items: center;
+height: 45px;
+}
+
+li {
+  position: relative;
+  bottom: 3px;
+  left: 20px;
+  padding: 5px;
+}
+
+cite {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  font-size: 15px;
+  letter-spacing: 3px;
+  color: gray;
+
+}
+
+p {
+  font-size: 14px;
+  color: gray;
+}
+
+
